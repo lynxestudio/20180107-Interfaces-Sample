@@ -1,4 +1,4 @@
-cd # Understanding Interfaces with C#
+# Understanding Interfaces with C#
 
 <p align="justify">
     The public interface of a class is a contract between the client code and the class that provides the service. Concrete classes implement each method. However, an abstract class can defer the implementation by declaring the method to be abstract, and a C# interface declares only the contract and no implementation.
