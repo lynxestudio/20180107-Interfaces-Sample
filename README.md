@@ -11,21 +11,21 @@
     </p>
     <div><b>Fig 1. The interface flyer and airplane class diagram</b></div><br>
     <div>
-    <IMG src="picture_library/interfaces/fig1.png">
+    <IMG src="images/fig1.png">
     </div><br>
     <p align="justify">
     There can be multiple classes that implement the Flyer interface, as shown of the next figure
     </p>
     <div><b>Fig 2. Multiple implementations of the Flyer interface.</b></div><br>
     <div>
-    <IMG src="picture_library/interfaces/fig2.png">
+    <IMG src="images/fig2.png">
     </div><br>
     <p align="justify">
     This sounds like multiple inheritance, but it is not quite that. The danger of multiple inheritance is that a class could inherit two distinct implementation of the same method.
     </p>
     <div><b>Fig 3. A mixture of inheritance and implementation.</b></div><br>
     <div>
-    <IMG src="picture_library/interfaces/fig3.png">
+    <IMG src="images/fig3.png">
     </div>
     <p align="justify">
     An Airplane is a Vehicle, and it can fly. A bird is an Animal, and it can fly. These examples show that a class can inherit from one class but also implement some other interface.
@@ -36,12 +36,12 @@
     </p>
     <div><b>Fig 4. A mixture of inheritance and implementation.</b></div><br>
     <div>
-    <IMG src="picture_library/interfaces/fig4.png" width="777">
+    <IMG src="images/fig4.png" width="777">
     </div><br>
     <p align="justify">
     The airport must grant permission to land and take off for flying objects of all types, then the code for the airport could look like the following.
     </p>
     <div><b>Running the sample</b></div><br>
     <div>
-    <IMG src="picture_library/interfaces/Interfacesout.png">
+    <IMG src="images/Interfacesout.png">
     </div>
